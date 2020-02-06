@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.armor.primitive_armor2.recipe_name)",
+   "description": "i18n(primitive_armory:entities.armor.primitive_armor2.description)",
+   "flavor": "i18n(primitive_armory:entities.armor.primitive_armor2.flavor)",
+   "portrait": "/primitive_armory/entities/armor/primitive_armor2/primitive_armor2.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 6
+      },
+	  {
+	  "material": "fiber resource",
+         "count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:armor:primitive_armor2"
+      }
+   ]
+}

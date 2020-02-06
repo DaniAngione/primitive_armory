@@ -1,0 +1,10 @@
+{
+	 "skeleton": {
+		 "handle": [0.000000,0.000000,0.000000],
+		 "stringOne": [1.500000,-5.000000,0.500000],
+		 "stringTwo": [0.500000,-5.000000,-0.500000],
+		 "root": [0.000000,0.000000,0.000000]
+	},
+	"animation_root" : "file(animations)",
+    "effects_root": "file(effects)"
+}

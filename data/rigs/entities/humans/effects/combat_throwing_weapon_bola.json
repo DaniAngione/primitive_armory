@@ -1,0 +1,48 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+		 "speed": 0.8,
+         "animation": "combat_throwing_weapon.json",
+         "loop": false
+      },
+	  "grab_bola" : {
+         "type": "attach_item_effect",
+         "start_time": 0,
+         "end_time": 2300,
+         "item": "primitive_armory:weapons:primitive_bola:animated",
+         "bone": "mainHand"
+      },
+      "spin_sound": {
+         "type": "sound_effect",
+         "duration": 2500,
+         "start_time": 0,
+         "min_distance": 30,
+         "falloff" : 3.6,
+         "volume": 32,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "primitive_armory:sounds:combat_sling"
+            ]
+         }
+      },
+	  "release_sound": {
+         "type": "sound_effect",
+         "duration": 1000,
+         "start_time": 2300,
+         "min_distance": 30,
+         "falloff" : 3.6,
+         "volume": 30,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:woodsword_forehand_01",
+               "stonehearth:sounds:woodsword_forehand_02"
+            ]
+         }
+      }
+   }
+}

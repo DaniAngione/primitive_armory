@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(primitive_armor2.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(primitive_armor2_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(primitive_armor2_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "ilevel": 2,
+         "required_job_level": 2,
+         "roles": "mail_wearer",
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 2
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(primitive_armory:entities.armor.primitive_armor1.display_name)",
+         "description": "i18n(primitive_armory:entities.armor.primitive_armor1.description)",
+         "icon": "file(primitive_armor2.png)",
+         "category": "armor",
+         "material_tags":["clay", "armor", "light_armor", "stockpile_equipment"]
+      }
+   }
+}

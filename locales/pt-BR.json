@@ -1,0 +1,79 @@
+{
+	"ui": {
+
+	},
+	"entities": {
+		"armor": {
+			"primitive_armor1": {
+				"description": "Uma armadura mal feita com pedaços de madeira e cascas de árvore.",
+				"display_name": "Peitoral de Casca",
+				"recipe_name": "Peitoral de Casca",
+				"flavor": "Está na hora de nossos inimigos sofrerem como nossos lenhadores!"
+			},
+			"primitive_armor2": {
+				"description": "Uma armadura criada com duras placas de cerâmica superaquecida.",
+				"display_name": "Armadura de Cerâmica",
+				"recipe_name": "Armadura de Cerâmica",
+				"flavor": "'Você não passará!' diz o Cavaleiro de Chaleira."
+			},
+			"primitive_helm1": {
+				"description": "Um equipamento de proteção para a cabeça feito de casca de árvore.",
+				"display_name": "Elmo de Casca",
+				"recipe_name": "Elmo de Casca",
+				"flavor": "Goblins barbudos certamente acertarão sua cabeça."
+			},
+			"primitive_helm2": {
+				"description": "Uma peça de armadura protetora para a cabeça feita de cerâmica.",
+				"display_name": "Capacete de Cerâmica",
+				"recipe_name": "Capacete de Cerâmica",
+				"flavor": "'Querido, você viu o vaso do jardim?'"
+			},
+			"primitive_shield1": {
+				"description": "Um pedaço grande de casca de árvore utilizado como escudo.",
+				"display_name": "Escudo-Casca",
+				"recipe_name": "Escudo-Casca",
+				"flavor": "O que poderia dar errado?"
+			},
+			"primitive_shield2": {
+				"description": "Um escudo improvisado feito de cerâmica",
+				"display_name": "Tampa de Cerâmica",
+				"recipe_name": "Tampa de Cerâmica",
+				"flavor": "Juro que não é uma tampa."
+			}
+		},
+		"weapons": {
+			"primitive_spear1": {
+				"description": "Uma lança rudimentar lascada de um galho duro.",
+				"display_name": "Lança Primitiva",
+				"recipe_name": "Lança Primitiva",
+				"flavor": "O lado pontudo para os lobos."
+			},
+			"primitive_spear2": {
+				"description": "Uma lança com uma ponta de pedra lascada.",
+				"display_name": "Lança Primitiva de Pedra",
+				"recipe_name": "Lança Primitiva de Pedra",
+				"flavor": "Ideal para viver em cavernas."
+			},
+			"primitive_hatchet": {
+				"description": "Um pequeno machado com uma lâmina de pedra lascada.",
+				"display_name": "Machadinha Primitiva",
+				"recipe_name": "Machadinha Primitiva",
+				"flavor": "'Mas os Trabalhadores já têm machadinhas de metal!' só que não."
+			},
+			"primitive_dagger": {
+				"description": "Uma adaga cerimonial feita com cerâmica reforçada.",
+				"display_name": "Adaga Primitiva",
+				"recipe_name": "Adaga Primitiva",
+				"flavor": "Extremamente frágil, manusear com cuidado."
+			}
+		}
+	},
+	"jobs": {
+		"potter": {
+			"recipes": {
+				"weapons_armor_name": "Armas & Armaduras"
+               	}
+			}
+		}
+	
+}

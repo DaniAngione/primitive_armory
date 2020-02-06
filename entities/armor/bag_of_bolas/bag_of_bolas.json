@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bag_of_bolas.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "primitive_armory_bag",
+         "render_type": "attach_to_bone",
+         "no_drop": true,
+         "ilevel": -1,
+         "required_job_level": 0,
+         "roles": [
+            "footman_job"
+         ]
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": -0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(primitive_armory:entities.weapons.primitive_bola.bag_of_bolas.display_name)",
+         "description": "i18n(primitive_armory:entities.weapons.primitive_bola.bag_of_bolas.description)",
+         "icon": "file(bag_of_bolas.png)",
+         "category": "weapons",
+         "material_tags": [
+            "armor"
+         ]
+      }
+   }
+}

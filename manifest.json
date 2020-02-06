@@ -1,0 +1,48 @@
+{
+   "info": {
+      "name": "Primitive Armory",
+      "namespace": "primitive_armory",
+      "version": 7,
+      "steam_file_id": "1380047624"
+   },
+   "author": "DaniAngione",
+   "default_locale": "en",
+   "aliases": {
+      "armor:primitive_armor1": "file(entities/armor/primitive_armor1/primitive_armor1.json)",
+      "armor:primitive_armor2": "file(entities/armor/primitive_armor2/primitive_armor2.json)",
+      "armor:primitive_bola:bag_of_bolas": "file(entities/armor/bag_of_bolas/bag_of_bolas.json)",
+      "armor:primitive_helm1": "file(entities/armor/primitive_helm1/primitive_helm1.json)",
+      "armor:primitive_helm2": "file(entities/armor/primitive_helm2/primitive_helm2.json)",
+      "armor:primitive_shield1": "file(entities/armor/primitive_shield1/primitive_shield1.json)",
+      "armor:primitive_shield2": "file(entities/armor/primitive_shield2/primitive_shield2.json)",
+      "armor:primitive_sling:bag_of_stones": "file(entities/armor/bag_of_stones/bag_of_stones.json)",
+      "weapons:bola": "file(entities/weapons/bola/bola.json)",
+      "weapons:primitive_bola": "file(entities/weapons/primitive_bola/primitive_bola.json)",
+	  "weapons:primitive_bola:animated": "file(entities/weapons/primitive_bola/primitive_bola_animated.json)",
+      "weapons:primitive_dagger": "file(entities/weapons/primitive_dagger/primitive_dagger.json)",
+      "weapons:primitive_hatchet": "file(entities/weapons/primitive_hatchet/primitive_hatchet.json)",
+      "weapons:primitive_sling": "file(entities/weapons/primitive_sling/primitive_sling.json)",
+	  "weapons:primitive_sling:animated": "file(entities/weapons/primitive_sling/primitive_sling_animated.json)",
+      "weapons:primitive_spear1": "file(entities/weapons/primitive_spear1/primitive_spear1.json)",
+      "weapons:primitive_spear2": "file(entities/weapons/primitive_spear2/primitive_spear2.json)",
+      "weapons:sling_stone": "file(entities/weapons/sling_stone/sling_stone.json)",
+	  "sounds:combat_sling": "file(data/sounds/effects/sfx_combat_sling.ogg)"
+   },
+   "mixintos": {
+      "stonehearth:data:constants": "file(data/constants.json)",
+      "stonehearth/jobs/carpenter/recipes/recipes.json": "file(recipes/carpenter_recipes.json)",
+      "stonehearth/jobs/mason/recipes/recipes.json": "file(recipes/mason_recipes.json)",
+      "stonehearth/jobs/potter/recipes/recipes.json": "file(recipes/potter_recipes.json)"
+   },
+   "overrides": {
+	  "stonehearth/data/rigs/entities/humans/animations/male/combat_throwing_weapon.json": "primitive_armory/data/rigs/entities/humans/animations/male/combat_throwing_weapon.json",
+      "stonehearth/data/rigs/entities/humans/animations/female/combat_throwing_weapon.json": "primitive_armory/data/rigs/entities/humans/animations/female/combat_throwing_weapon.json",
+      "stonehearth/data/rigs/entities/humans/effects/combat_throwing_weapon.json": "primitive_armory/data/rigs/entities/humans/effects/combat_throwing_weapon.json",
+	  "stonehearth/data/rigs/entities/humans/effects/combat_throwing_weapon_bola.json": "primitive_armory/data/rigs/entities/humans/effects/combat_throwing_weapon_bola.json",
+	  "stonehearth/data/rigs/entities/humans/effects/combat_throwing_weapon_sling.json": "primitive_armory/data/rigs/entities/humans/effects/combat_throwing_weapon_sling.json",
+	  "stonehearth/data/rigs/entities/monster/goblins/goblin/animations/male/combat_throwing_weapon.json": "primitive_armory/data/rigs/entities/monster/goblins/goblin/animations/combat_throwing_weapon.json",
+      "stonehearth/data/rigs/entities/monster/goblins/goblin/effects/combat_throwing_weapon.json": "primitive_armory/data/rigs/entities/monster/goblins/goblin/effects/combat_throwing_weapon.json"
+   },
+   "components": {},
+   "controllers": {}
+}
