@@ -1,0 +1,16 @@
+{
+   "craftable_recipes": {
+      "weapons": {
+			"ordinal": 11,
+			"name": "i18n(primitive_armory:jobs.mason.recipes.weapons_name)",
+         "recipes":{
+            "stone_spear": {
+               "recipe": "file(stone_spear_recipe.json)"
+            },
+				"stone_axe": {
+               "recipe": "file(stone_axe_recipe.json)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,91 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(javelin_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(javelin_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "additional_equipment": {
+            "primitive_armory:armor:javelin:rack": true
+         },
+         "postures": [
+            "stonehearth:combat"
+         ],
+         "ilevel": 12,
+         "roles": [
+            "footman_job",
+            "archer_job"
+         ],
+         "required_job_level": 1,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "injected_ai": {
+            "ai_packs": [
+               "stonehearth:ai_pack:ranged_combat"
+            ]
+         },
+         "equipment_types": [
+            "throwing"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 12,
+         "reach": 1.4,
+         "base_ranged_damage": 12,
+         "range": 18,
+         "projectile_speed": 28,
+         "projectile_uri": "primitive_armory:weapons:javelin:projectile"
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "javelin_throw",
+            "effect": "combat_1h_forehand",
+            "active_frame": 15,
+            "cooldown": 800,
+            "priority": 2
+         }
+      ],
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 1
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(primitive_armory:entities.weapons.javelin.display_name)",
+         "description": "i18n(primitive_armory:entities.weapons.javelin.description)",
+         "icon": "file(javelin.png)",
+         "category": "weapons",
+         "material_tags": [
+            "wood",
+            "ranged_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

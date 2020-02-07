@@ -1,0 +1,22 @@
+{
+   "craftable_recipes": {
+      "weapons_armor": {
+         "ordinal": 11,
+			"name": "i18n(primitive_armory:jobs.potter.recipes.weapons_armor_name)",
+         "recipes":{
+            "clay_sword": {
+               "recipe": "file(clay_sword_recipe.json)"
+            },
+				"clay_breastplate": {
+               "recipe": "file(clay_breastplate_recipe.json)"
+            },
+				"clay_helm": {
+               "recipe": "file(clay_helm_recipe.json)"
+            },
+				"clay_shield": {
+               "recipe": "file(clay_shield_recipe.json)"
+            }
+         }
+      }
+   }
+}

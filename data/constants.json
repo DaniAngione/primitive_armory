@@ -4,7 +4,7 @@
       "equipment": {
          "SLOT_TO_BONE_MAP": {
             "primitive_armory_bag": "torso",
-			"primitive_armory_offhand_extra": "leftArm"
+				"primitive_armory_offhand_extra": "leftArm"
          }
       }
    }

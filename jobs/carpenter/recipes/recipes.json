@@ -1,0 +1,24 @@
+{
+    "craftable_recipes": {
+      "armor": {
+			"ordinal": 11,
+			"recipes":{
+				"wood_spear": {
+               "recipe": "file(wood_spear_recipe.json)"
+				},
+				"wood_breastplate": {
+               "recipe": "file(wood_breastplate_recipe.json)"
+				},
+				"wood_helm": {
+               "recipe": "file(wood_helm_recipe.json)"
+				},
+				"wood_shield": {
+               "recipe": "file(wood_shield_recipe.json)"
+				},
+				"javelin": {
+               "recipe": "file(javelin_recipe.json)"
+				}
+			}
+		}
+   }
+}

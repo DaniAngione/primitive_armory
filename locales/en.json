@@ -1,92 +1,120 @@
 {
-   "ui": {},
+   "ui": {
+      "game": {
+         "unit_frame": {
+            "equipment_types": {
+               "throwing": "Throwing Weapon",
+               "projectile": "Projectile Weapon"
+            }
+         }
+      }
+   },
    "entities": {
       "armor": {
-         "primitive_armor1": {
-            "description": "A flimsily assembled armor made of wood parts and tree bark pieces.",
+         "wood_breastplate": {
+            "description": "A flimsily assembled armor made of wood parts and bits of tree bark.",
             "display_name": "Bark Breastplate",
-            "recipe_name": "Bark Breastplate",
             "flavor": "It's time for our enemies to suffer as our foresters do."
          },
-         "primitive_armor2": {
-            "description": "A suit of body armor created with overheated, hard ceramic plates.",
-            "display_name": "Ceramic Armor",
-            "recipe_name": "Ceramic Armor",
+         "clay_breastplate": {
+            "description": "A suit of body armor created with overheated, hard clay plates.",
+            "display_name": "Ceramic Breastplate",
             "flavor": "'You may not pass.' says the Teapot Knight."
          },
-         "primitive_helm1": {
-            "description": "A piece of headgear made out of wood and bark.",
+			"stone_breastplate": {
+            "description": "Harder and heavier than it looks. Also not very flexible...",
+            "display_name": "Rock Breastplate",
+            "flavor": "Its defensive capabilities are very solid, though"
+         },
+         "wood_helm": {
+            "description": "A piece of headgear carved out of a log. Literally.",
             "display_name": "Bark Helmet",
-            "recipe_name": "Bark Helmet",
             "flavor": "Bearded goblins shall inflict certain head strikes."
          },
-         "primitive_helm2": {
-            "description": "A protective piece of ceramic armor for the head.",
-            "display_name": "Ceramic Cap",
-            "recipe_name": "Ceramic Cap",
+         "clay_helm": {
+            "description": "A protective piece of clay armor for the head.",
+            "display_name": "Ceramic Helmet",
             "flavor": "'Darling, have you seen my garden pot?'"
          },
-         "primitive_shield1": {
+			"stone_helm": {
+            "description": "A quite tough piece of head protection.",
+            "display_name": "Rock Helmet",
+            "flavor": "Just be careful to not break your neck"
+         },
+         "wood_shield": {
             "description": "A large chunk of tree bark used as a shield.",
             "display_name": "Bark Buckler",
-            "recipe_name": "Bark Buckler",
             "flavor": "What could possibly go wrong?"
          },
-         "primitive_shield2": {
-            "description": "An improvised shield made of hard ceramic.",
-            "display_name": "Ceramic Lid",
-            "recipe_name": "Ceramic Lid",
+         "clay_shield": {
+            "description": "An improvised shield made of hard clay.",
+            "display_name": "Ceramic Buckler",
             "flavor": "Totally not a pot lid."
+         },
+			"stone_shield": {
+            "description": "Just keep it between them and you.",
+            "display_name": "Rock Buckler",
+            "flavor": "A stone put to good use"
          }
       },
       "weapons": {
-         "primitive_spear1": {
+         "wood_spear": {
             "description": "A crude spear shaved from a hard wood stick.",
-            "display_name": "Primitive Spear",
-            "recipe_name": "Primitive Spear",
+            "display_name": "Primitive Wooden Spear",
             "flavor": "The pointy end goes towards the wolves."
          },
-         "primitive_spear2": {
+         "stone_spear": {
             "description": "A spear crafted with a piece of sharpened flint.",
             "display_name": "Primitive Stone Spear",
-            "recipe_name": "Primitive Stone Spear",
             "flavor": "Ideal for living in caves."
          },
-         "primitive_hatchet": {
+         "stone_axe": {
             "description": "A small axe assembled with a stone headpiece.",
-            "display_name": "Primitive Handaxe",
-            "recipe_name": "Primitive Hatchet",
+            "display_name": "Primitive Stone Axe",
             "flavor": "'But Workers already carry a metal hatchet' said no Hearthling ever."
          },
-         "primitive_dagger": {
-            "description": "A ceremonial dagger made with hard ceramic.",
-            "display_name": "Primitive Dagger",
-            "recipe_name": "Primitive Dagger",
+         "clay_sword": {
+            "description": "A ceremonial sword made with hard clay.",
+            "display_name": "Primitive Ceramic Sword",
             "flavor": "Extra brittle, handle with care."
          },
-         "primitive_sling": {
+         "sling": {
             "display_name": "Primitive Sling",
             "description": "A very simple yet effective tool for hurling stones.",
+            "flavor": "",
             "bag_of_stones": {
                "display_name": "Bag of Stones",
                "description": "Gotta carry some stones for that sling!"
             }
          },
-         "sling_stone": {
+         "sling_projectile": {
             "display_name": "Flying Stone",
             "description": "Oof!"
          },
-         "primitive_bola": {
+         "bola": {
             "display_name": "Primitive Bola",
-            "description": "This weapon has a very low damage but a good chance of snaring the target in place.",
+            "description": "This weapon has very low damage but a chance of snaring the target in place.",
+            "flavor": "Quite efficient if well used",
             "bag_of_bolas": {
                "display_name": "Bag of Bolas",
                "description": "Might need a couple of extra ones."
             }
          },
-         "bola": {
+         "bola_projectile": {
             "display_name": "Flying Bola",
             "description": "It's spinning!"
+         },
+         "javelin": {
+            "display_name": "Primitive Javelins",
+            "description": "A set of strong spears that can be thrown and will intimidate any foe.",
+            "rack": {
+               "display_name": "Reserve Javelins",
+               "description": "Hopefully enough."
+            }
+         },
+         "javelin_projectile": {
+            "display_name": "Javelin",
+            "description": "Mind the eye!"
          }
       }
    },
@@ -94,6 +122,21 @@
       "potter": {
          "recipes": {
             "weapons_armor_name": "Weapons and Armor"
+         }
+      },
+      "mason": {
+         "recipes": {
+            "weapons_name": "Weapons and Armor"
+         }
+      }
+   },
+   "data": {
+      "commands": {
+         "job_equipment_roles": {
+            "skirmisher": {
+               "display_name": "Prefer Skirmishing",
+               "description": "This Hearthling currently prefers using shields and throwing or projectile weapons. Click to change!"
+            }
          }
       }
    }

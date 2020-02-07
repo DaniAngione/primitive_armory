@@ -8,12 +8,17 @@
          "animation": "combat_throwing_weapon.json",
          "loop": false
       },
+		"hide_carrying" : {
+         "type": "hide_bone",
+         "start_time": 0,
+         "end_time": 1,
+         "bone": "mainHand"
+      },
 	  "grab_sling" : {
          "type": "attach_item_effect",
-         "start_time": 0,
-         "end_time": 0,
-         "item": "primitive_armory:weapons:primitive_sling:animated",
-         "bone": "mainHand"
+         "start_time": 2,
+         "item": "primitive_armory:weapons:sling:animated",
+         "bone": "rightHand"
       },
       "spin_sound": {
          "type": "sound_effect",

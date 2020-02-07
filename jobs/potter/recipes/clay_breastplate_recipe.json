@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.armor.clay_breastplate.display_name)",
+   "description": "i18n(primitive_armory:entities.armor.clay_breastplate.description)",
+   "flavor": "i18n(primitive_armory:entities.armor.clay_breastplate.flavor)",
+   "portrait": "/primitive_armory/entities/armor/clay_breastplate/clay_breastplate.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 4
+      },
+	  {
+	  "material": "fiber resource",
+         "count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:armor:clay_breastplate"
+      }
+   ]
+}

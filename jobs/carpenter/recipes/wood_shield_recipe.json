@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.armor.wood_shield.display_name)",
+   "description": "i18n(primitive_armory:entities.armor.wood_shield.description)",
+   "flavor": "i18n(primitive_armory:entities.armor.wood_shield.flavor)",
+   "portrait": "/primitive_armory/entities/armor/wood_shield/wood_shield.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:armor:wood_shield"
+      }
+   ]
+}

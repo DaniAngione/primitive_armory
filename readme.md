@@ -54,7 +54,8 @@ https://creativecommons.org/licenses/by/3.0/
 
 ## CHANGELOG
 
-### February 6th, 2020 - v1.3
+### February x, 2020 - v1.3
+- The mod structure has been completely changed and re-organized; Stonehearth naming standards have been adopted for entities, folder structure has been refined, etc.
 
 
 ### June 12th, 2018 - v1.2

@@ -1,0 +1,12 @@
+{
+   "equipment_preferences": {
+      "roles": {
+         "skirmisher": {
+            "command": "primitive_armory:commands:toggle_job_role:skirmisher",
+            "types": [
+               "throwing", "shield", "projectile"
+            ]
+         }
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.weapons.bola.display_name)",
+   "description": "i18n(primitive_armory:entities.weapons.bola.description)",
+   "flavor": "i18n(primitive_armory:entities.weapons.bola.flavor)",
+   "portrait": "/primitive_armory/entities/weapons/bola/bola.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+	  {
+		 "material": "stone resource",
+		 "count": 4
+	  },
+	  {
+		 "material": "wood resource",
+		 "count": 1
+	  },
+	  {
+		 "material": "fiber resource",
+		 "count": 3
+	  }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:weapons:bola"
+      }
+   ]
+}

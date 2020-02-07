@@ -1,0 +1,22 @@
+{
+   "craftable_recipes": {
+      "weapons": {
+         "recipes":{
+            "bola": {
+               "recipe": "/primitive_armory/jobs/weaver/recipes/bola_recipe.json"
+            },
+				"sling": {
+               "recipe": "/primitive_armory/jobs/weaver/recipes/sling_recipe.json"
+            }
+         }
+      },
+		"clothing_armor": {
+         "recipes":{
+				"mixintypes": {
+					"bola": "remove",
+					"sling": "remove"
+				}
+         }
+      }
+   }
+}

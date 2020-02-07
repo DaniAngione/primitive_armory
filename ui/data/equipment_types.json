@@ -1,0 +1,16 @@
+{
+   "throwing": {
+      "name": "i18n(primitive_armory:ui.game.unit_frame.equipment_types.throwing)",
+      "icon": "/primitive_armory/ui/images/equipment_types/throwing.png",
+      "overrides": [
+         "mainhand"
+      ]
+   },
+	"projectile": {
+      "name": "i18n(primitive_armory:ui.game.unit_frame.equipment_types.projectile)",
+      "icon": "/primitive_armory/ui/images/equipment_types/projectile.png",
+      "overrides": [
+         "mainhand"
+      ]
+   }
+}

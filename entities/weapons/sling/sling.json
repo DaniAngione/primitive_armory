@@ -1,0 +1,81 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sling_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sling_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "additional_equipment": {
+            "primitive_armory:armor:sling:bag_of_stones": true
+         },
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 12,
+         "roles": [
+            "footman_job",
+            "archer_job"
+         ],
+         "required_job_level": 1,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "injected_ai": {
+            "ai_packs": [
+               "stonehearth:ai_pack:ranged_combat"
+            ]
+         },
+         "equipment_types": [
+            "projectile"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 10,
+         "base_ranged_damage": 10,
+         "range": 20,
+         "projectile_speed": 30,
+         "projectile_uri": "primitive_armory:weapons:sling:projectile"
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "sling_shoot",
+            "effect": "combat_throwing_weapon_sling",
+            "active_frame": 70,
+            "cooldown": 0,
+            "priority": 1
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(primitive_armory:entities.weapons.sling.display_name)",
+         "description": "i18n(primitive_armory:entities.weapons.sling.description)",
+         "icon": "file(sling.png)",
+         "category": "weapons",
+         "material_tags": [
+            "stone",
+            "ranged_weapon",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

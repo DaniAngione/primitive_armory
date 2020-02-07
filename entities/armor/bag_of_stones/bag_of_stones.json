@@ -16,7 +16,8 @@
          "ilevel": -1,
          "required_job_level": 0,
          "roles": [
-            "footman_job"
+            "footman_job",
+            "archer_job"
          ]
       },
       "mob": {
@@ -33,8 +34,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(primitive_armory:entities.weapons.primitive_sling.bag_of_stones.display_name)",
-         "description": "i18n(primitive_armory:entities.weapons.primitive_sling.bag_of_stones.description)",
+         "display_name": "i18n(primitive_armory:entities.weapons.sling.bag_of_stones.display_name)",
+         "description": "i18n(primitive_armory:entities.weapons.sling.bag_of_stones.description)",
          "icon": "file(bag_of_stones.png)",
          "category": "weapons",
          "material_tags": [

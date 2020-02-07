@@ -1,0 +1,14 @@
+{
+   "craftable_recipes": {
+      "clothing_armor": {
+         "recipes":{
+            "bola": {
+               "recipe": "file(bola_recipe.json)"
+            },
+				"sling": {
+               "recipe": "file(sling_recipe.json)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 25,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.armor.wood_helm.display_name)",
+   "description": "i18n(primitive_armory:entities.armor.wood_helm.description)",
+   "flavor": "i18n(primitive_armory:entities.armor.wood_helm.flavor)",
+   "portrait": "/primitive_armory/entities/armor/wood_helm/wood_helm.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+	  {
+	  "material": "fiber resource",
+         "count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:armor:wood_helm"
+      }
+   ]
+}

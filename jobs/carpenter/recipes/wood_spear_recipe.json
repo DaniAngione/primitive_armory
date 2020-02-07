@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.weapons.wood_spear.display_name)",
+   "description": "i18n(primitive_armory:entities.weapons.wood_spear.description)",
+   "flavor": "i18n(primitive_armory:entities.weapons.wood_spear.flavor)",
+   "portrait": "/primitive_armory/entities/weapons/wood_spear/wood_spear.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:weapons:wood_spear"
+      }
+   ]
+}

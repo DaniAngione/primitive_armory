@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 5,
+   "recipe_name": "i18n(primitive_armory:entities.weapons.clay_sword.display_name)",
+   "description": "i18n(primitive_armory:entities.weapons.clay_sword.description)",
+   "flavor": "i18n(primitive_armory:entities.weapons.clay_sword.flavor)",
+   "portrait": "/primitive_armory/entities/weapons/clay_sword/clay_sword.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "primitive_armory:weapons:clay_sword"
+      }
+   ]
+}

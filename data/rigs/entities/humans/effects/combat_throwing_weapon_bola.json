@@ -12,7 +12,12 @@
          "type": "attach_item_effect",
          "start_time": 0,
          "end_time": 2300,
-         "item": "primitive_armory:weapons:primitive_bola:animated",
+         "item": "primitive_armory:weapons:bola:animated",
+         "bone": "mainHand"
+      },
+		"hide_carrying" : {
+         "type": "hide_bone",
+         "start_time": 2300,
          "bone": "mainHand"
       },
       "spin_sound": {

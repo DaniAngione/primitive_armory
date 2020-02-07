@@ -1,0 +1,13 @@
+{
+   "type": "command",
+   "name": "skirmisher",
+   "display_name": "i18n(primitive_armory:data.commands.job_equipment_roles.skirmisher.display_name)",
+   "description": "i18n(primitive_armory:data.commands.job_equipment_roles.skirmisher.description)",
+   "icon": "file(skirmisher.png)",
+   "action": "call",
+   "ordinal": -99,
+   "function": "stonehearth_ace:change_job_equipment_role",
+   "args": [
+      "skirmisher"
+   ]
+}

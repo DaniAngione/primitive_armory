@@ -16,7 +16,8 @@
          "ilevel": -1,
          "required_job_level": 0,
          "roles": [
-            "footman_job"
+            "footman_job",
+            "archer_job"
          ]
       },
       "mob": {
@@ -33,8 +34,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(primitive_armory:entities.weapons.primitive_bola.bag_of_bolas.display_name)",
-         "description": "i18n(primitive_armory:entities.weapons.primitive_bola.bag_of_bolas.description)",
+         "display_name": "i18n(primitive_armory:entities.weapons.bola.bag_of_bolas.display_name)",
+         "description": "i18n(primitive_armory:entities.weapons.bola.bag_of_bolas.description)",
          "icon": "file(bag_of_bolas.png)",
          "category": "weapons",
          "material_tags": [
